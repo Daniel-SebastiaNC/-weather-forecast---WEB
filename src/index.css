@@ -3,3 +3,27 @@
   margin: 0;
   padding: 0;
 }
+
+/* App */
+
+header {
+  background-color: #9d43c7;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+
+h1 {
+  color: #FFF;
+  margin: 10px auto ;
+}
+
+/* Search */
+
+input[name=search] {
+  width: 40%;
+  margin: 10px auto ;
+  height: 32px;
+  font-size: 16px;
+  padding-left: 8px;
+}

@@ -1,3 +1,5 @@
+import './App.css';
+
 function Search(){
 
     function searchInput(){
@@ -8,7 +10,7 @@ function Search(){
 
     return(
         <form>
-            <input onKeyUp={searchInput} type="text" name="search"></input>
+            <input onKeyUp={searchInput} type="text" name="search" placeholder='Digite a cidade...'></input>
         </form>
     );
 }
