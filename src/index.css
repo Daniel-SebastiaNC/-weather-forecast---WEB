@@ -27,3 +27,9 @@ input[name=search] {
   font-size: 16px;
   padding-left: 8px;
 }
+
+input[name=submit] {
+  margin: 0px 5px ;
+  height: 32px;
+  font-size: 16px;
+}
